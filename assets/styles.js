@@ -1,15 +1,14 @@
 import { StyleSheet } from "react-native";
 
 export const loginStyles = StyleSheet.create({
-    headerBar: {
-        height:40,
-        backgroundColor: 'white',
-    },
-    headerText:{
-        fontSize: 18,
-        fontWeight: '900',
-        textAlign: 'center',
-    },
+  
+    container:{
+        display: "flex",
+        justifyContent: "center",
+        paddingHorizontal: 40,
+        height: "100%",
+        backgroundColor: "white",
+    }
 })
 
 export const photCardStyles = StyleSheet.create({
@@ -47,4 +46,6 @@ export const photoListStyles = StyleSheet.create({
         backgroundColor: 'white',
     }
 })
+
+
 
